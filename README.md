@@ -10,6 +10,7 @@ Explore US Bikeshare Data
 Use Python to understand US Bikeshare data.Calculate statistics 
 and build an interactive environment where a user chooses the 
 data and filter for a dataset to analyze.
+Python packages used are Numpy and Panda.
 
 ### Files used
 bikehare_2.py
