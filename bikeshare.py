@@ -203,8 +203,8 @@ def trip_duration_stats(df):
                          'm ' +
                          str(int(((total_travel_time % 86400) % 3600) % 60)) +
                          's')
-    print('For the selected filters, the total travel time is : ' +
-          total_travel_time + '.')
+    
+    print('For the filtered,total travel time is {}'.format(total_travel_time))
 
     # display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
